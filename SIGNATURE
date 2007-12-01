@@ -1,0 +1,50 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 33052ac5a751e5aee35a5042d70cc8ac51f08299 Changes
+SHA1 f8f372dcc053dcc5cc904c1bee78d222130426cc MANIFEST
+SHA1 16eb34ac43d8c27c5748496795302f5e697948d3 META.yml
+SHA1 120b90236554335cd0171b947f026a7f5128bc48 Makefile.PL
+SHA1 b02bec76722ada342f4c60d5479a61268e1414ab README
+SHA1 603bb9de29fb8cba7f13409c546750972eff645d inc/Module/AutoInstall.pm
+SHA1 78edb89a439463e44c33a72bbee84c54d0dc8aaf inc/Module/Install.pm
+SHA1 ae32c02b539901de91f06366ce9bdbb7a7bd040b inc/Module/Install/AutoInstall.pm
+SHA1 8ea4e37df83fd0c1c050be5c8da75545c3828d9b inc/Module/Install/Base.pm
+SHA1 1da6031583c32f0d1ec073b8376102fc51427dcc inc/Module/Install/Can.pm
+SHA1 b779375b90c16af2f31f38a1dd2b5df223c7f2fb inc/Module/Install/Fetch.pm
+SHA1 6bf0d0d100b94d1a2ce64d010c8813dec26ac480 inc/Module/Install/Include.pm
+SHA1 2054450e1e9c1dd8056362bf4a64ae70d5d71476 inc/Module/Install/Makefile.pm
+SHA1 5d6189b2cad15cf9932a28faafd55130c8247e83 inc/Module/Install/Metadata.pm
+SHA1 02af973fae2ac3531fa6b704574b2b8cb2a08148 inc/Module/Install/Win32.pm
+SHA1 3a2eab96e91cca8d99938cda7791759ae9d97b3a inc/Module/Install/WriteAll.pm
+SHA1 b1759d764c0fa0b4b7adf05fc611276aea776f8f lib/Games/Mastermind/Cracker.pm
+SHA1 3a1093196b1feeac1ff0cd5d8bed62dc2bbcee51 lib/Games/Mastermind/Cracker/Basic.pm
+SHA1 f2ffbde818a42ebe4cfba519b5211d81f5e172de lib/Games/Mastermind/Cracker/Random.pm
+SHA1 16d4333c0bf204b2a67eab83f5dcbbd2d331ad73 lib/Games/Mastermind/Cracker/Role/Elimination.pm
+SHA1 5467d6fd419ab0afb424e38de6fe8762ec00f777 lib/Games/Mastermind/Cracker/Sequential.pm
+SHA1 f4a279a79499b6bb0b2a8f2394dfa878bfad87ce t/000-load.t
+SHA1 f410e0c8bb3241f0865533652dbb386f556b83ad t/001-basic.t
+SHA1 0f628636abbc64ad64fad6a67b73b860068b9765 t/010-score.t
+SHA1 2d67ecdbed89e5532d995b8d75a4616a194a0457 t/500-random.t
+SHA1 ba455ce3144fe10decfb0545d5858d69059155bc t/501-sequential.t
+SHA1 e5d8d592f95d78348c2885a5b0a1e50148aa45f3 t/502-basic.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (Darwin)
+
+iD8DBQFHUdfbsxfQtHhyRPoRAqMRAJ96StPYxYTwbaVbEzJWM+nDoJRv6wCcDgpV
+tE92az654t72RCXXrl/Oapo=
+=f3Oz
+-----END PGP SIGNATURE-----
