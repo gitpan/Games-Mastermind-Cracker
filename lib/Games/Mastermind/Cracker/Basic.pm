@@ -1,4 +1,3 @@
-#!/usr/bin/env perl
 package Games::Mastermind::Cracker::Basic;
 use Moose;
 
@@ -17,11 +16,13 @@ sub make_guess {
 
 sub result_of { }
 
+1;
+
+__END__
+
 =head1 NAME
 
 Games::Mastermind::Cracker::Basic - guess arbitrary possible codes
 
 =cut
-
-1;
 

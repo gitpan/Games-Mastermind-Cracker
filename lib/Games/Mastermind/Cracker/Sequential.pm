@@ -1,4 +1,3 @@
-#!/usr/bin/env perl
 package Games::Mastermind::Cracker::Sequential;
 use Moose;
 extends 'Games::Mastermind::Cracker';
@@ -47,11 +46,13 @@ sub increment_guess {
     return join '', map { $self->pegs->[$_-1] } @guess;
 }
 
+1;
+
+__END__
+
 =head1 NAME
 
 Games::Mastermind::Cracker::Sequential - guess every code in order
 
 =cut
-
-1;
 

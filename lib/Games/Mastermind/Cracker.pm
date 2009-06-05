@@ -1,6 +1,7 @@
-#!perl
 package Games::Mastermind::Cracker;
 use Moose;
+
+our $VERSION = '0.03';
 
 has holes => (
     is      => 'ro',
@@ -184,17 +185,11 @@ sub score {
     return ($black, $white);
 }
 
+1;
+
 =head1 NAME
 
 Games::Mastermind::Cracker - quickly crack Mastermind
-
-=head1 VERSION
-
-Version 0.02 released 01 Dec 07
-
-=cut
-
-our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -336,56 +331,18 @@ so you could say the second against the first C<:)>).
 
 =head1 SEE ALSO
 
-L<Games::Mastermind>, L<Games::Mastermind::Solver>, L<http://sartak.katron.org/nh/mastermind>
+L<Games::Mastermind>, L<Games::Mastermind::Solver>
 
 =head1 AUTHOR
 
-Shawn M Moore, C<< <sartak at gmail.com> >>
-
-=head1 BUGS
-
-No known bugs.
-
-Please report any bugs through RT: email
-C<bug-games-mastermind-cracker at rt.cpan.org>, or browse
-L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Games-Mastermind-Cracker>.
-
-=head1 SUPPORT
-
-You can find this documentation for this module with the perldoc command.
-
-    perldoc Games::Mastermind::Cracker
-
-You can also look for information at:
-
-=over 4
-
-=item * AnnoCPAN: Annotated CPAN documentation
-
-L<http://annocpan.org/dist/Games-Mastermind-Cracker>
-
-=item * CPAN Ratings
-
-L<http://cpanratings.perl.org/d/Games-Mastermind-Cracker>
-
-=item * RT: CPAN's request tracker
-
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Games-Mastermind-Cracker>
-
-=item * Search CPAN
-
-L<http://search.cpan.org/dist/Games-Mastermind-Cracker>
-
-=back
+Shawn M Moore, C<sartak@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2007 Shawn M Moore.
+Copyright 2007-2009 Shawn M Moore.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
 
 =cut
-
-1;
 
